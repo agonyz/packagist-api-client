@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+.github/
+src/
+tests/
+.prettierignore
+.prettierrc
+jest.config.ts
+tsconfig.json

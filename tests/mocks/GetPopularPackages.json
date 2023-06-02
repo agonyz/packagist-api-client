@@ -1,0 +1,41 @@
+{
+  "packages": [
+    {
+      "name": "symfony/polyfill-mbstring",
+      "description": "Symfony polyfill for the Mbstring extension",
+      "url": "https://packagist.org/packages/symfony/polyfill-mbstring",
+      "downloads": 652785382,
+      "favers": 7678
+    },
+    {
+      "name": "psr/log",
+      "description": "Common interface for logging libraries",
+      "url": "https://packagist.org/packages/psr/log",
+      "downloads": 667723525,
+      "favers": 10343
+    },
+    {
+      "name": "psr/http-message",
+      "description": "Common interface for HTTP messages",
+      "url": "https://packagist.org/packages/psr/http-message",
+      "downloads": 536215377,
+      "favers": 6848
+    },
+    {
+      "name": "guzzlehttp/promises",
+      "description": "Guzzle promises library",
+      "url": "https://packagist.org/packages/guzzlehttp/promises",
+      "downloads": 503834532,
+      "favers": 7425
+    },
+    {
+      "name": "guzzlehttp/guzzle",
+      "description": "Guzzle is a PHP HTTP client library",
+      "url": "https://packagist.org/packages/guzzlehttp/guzzle",
+      "downloads": 526382541,
+      "favers": 23320
+    }
+  ],
+  "total": 372366,
+  "next": "https://packagist.org/explore/popular.json?page=2&per_page=5"
+}

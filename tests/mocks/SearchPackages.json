@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "name": "agonyz/contao-page-speed-insights-bundle",
+      "description": "Contao extension to automatically get page speed insights for your root pages",
+      "url": "https://packagist.org/packages/agonyz/contao-page-speed-insights-bundle",
+      "repository": "https://github.com/agonyz/contao-page-speed-insights-bundle",
+      "downloads": 23,
+      "favers": 1
+    },
+    {
+      "name": "agonyz/contao-haveibeenpwned-bundle",
+      "description": "This extensions automatically checks the user's password when logging in via the HaveIBeenPwned Api",
+      "url": "https://packagist.org/packages/agonyz/contao-haveibeenpwned-bundle",
+      "repository": "https://github.com/agonyz/contao-haveibeenpwned-bundle",
+      "downloads": 2,
+      "favers": 0
+    },
+    {
+      "name": "agonyz/contao-countdown-bundle",
+      "description": "Contao extension to add a simple countdown content element",
+      "url": "https://packagist.org/packages/agonyz/contao-countdown-bundle",
+      "repository": "https://github.com/agonyz/contao-countdown-bundle",
+      "downloads": 23,
+      "favers": 0
+    }
+  ],
+  "total": 3
+}

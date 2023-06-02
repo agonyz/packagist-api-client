@@ -1,0 +1,8 @@
+{
+  "packageNames": [
+    "agonyz/contao-countdown-bundle",
+    "agonyz/contao-haveibeenpwned-bundle",
+    "agonyz/contao-page-speed-insights-bundle",
+    "agonyz/php-lexica-art-api"
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "package": {
+    "name": "agonyz/contao-page-speed-insights-bundle",
+    "description": "Contao extension to automatically get page speed insights for your root pages",
+    "time": "2022-07-30T13:28:16+00:00",
+    "maintainers": [
+      {
+        "name": "agonyz",
+        "avatar_url": "https://www.gravatar.com/avatar/5de604a395536e80b946b8878593e948?d=identicon"
+      }
+    ],
+    "versions": {
+      "dev-main": {
+        "name": "agonyz/contao-page-speed-insights-bundle",
+        "description": "Contao extension to automatically get page speed insights for your root pages",
+        "keywords": [
+          "api",
+          "google",
+          "automatic",
+          "PageSpeed",
+          "Insights",
+          "contao",
+          "analyse"
+        ],
+        "homepage": "https://github.com/agonyz/contao-page-speed-insights-bundle",
+        "version": "dev-main",
+        "version_normalized": "dev-main",
+        "license": ["LGPL-3.0-or-later"],
+        "authors": [
+          {
+            "name": "agonyz",
+            "email": "dev@agonyz.de",
+            "homepage": "https://agonyz.de",
+            "role": "Developer"
+          }
+        ],
+        "source": {
+          "url": "https://github.com/agonyz/contao-page-speed-insights-bundle.git",
+          "type": "git",
+          "reference": "23ccbed1c3e4a6e4ad7f57258b384e80e58c7f3c"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/agonyz/contao-page-speed-insights-bundle/zipball/23ccbed1c3e4a6e4ad7f57258b384e80e58c7f3c",
+          "type": "zip",
+          "shasum": "",
+          "reference": "23ccbed1c3e4a6e4ad7f57258b384e80e58c7f3c"
+        },
+        "type": "contao-bundle",
+        "support": {
+          "issues": "https://github.com/agonyz/contao-page-speed-insights-bundle/issues",
+          "source": "https://github.com/agonyz/contao-page-speed-insights-bundle"
+        },
+        "time": "2023-01-16T19:48:21+00:00",
+        "autoload": {
+          "psr-4": { "Agonyz\\ContaoPageSpeedInsightsBundle\\": "src/" }
+        },
+        "extra": {
+          "contao-manager-plugin": "Agonyz\\ContaoPageSpeedInsightsBundle\\ContaoManager\\Plugin",
+          "bamarni-bin": { "bin-links": false, "target-directory": "tools" }
+        },
+        "default-branch": true,
+        "require": {
+          "php": "^7.4 || ^8.0",
+          "contao/core-bundle": "^4.13",
+          "guzzlehttp/guzzle": "^7.4",
+          "babdev/pagerfanta-bundle": "^3.7",
+          "pagerfanta/doctrine-orm-adapter": "^3.6",
+          "pagerfanta/twig": "^3.6"
+        },
+        "require-dev": {
+          "contao/easy-coding-standard": "^5.3",
+          "contao/manager-plugin": "^2.0",
+          "bamarni/composer-bin-plugin": "^1.5",
+          "phpunit/phpunit": "^9.5",
+          "symfony/phpunit-bridge": "^6.1"
+        },
+        "conflict": { "contao/manager-plugin": "\u003C2.0 || \u003E=3.0" }
+      },
+      "2.0.0": {
+        "name": "agonyz/contao-page-speed-insights-bundle",
+        "description": "Contao extension to automatically get page speed insights for your root pages",
+        "keywords": [
+          "api",
+          "google",
+          "automatic",
+          "PageSpeed",
+          "Insights",
+          "contao",
+          "analyse"
+        ],
+        "homepage": "https://github.com/agonyz/contao-page-speed-insights-bundle",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "license": ["LGPL-3.0-or-later"],
+        "authors": [
+          {
+            "name": "agonyz",
+            "email": "dev@agonyz.de",
+            "homepage": "https://agonyz.de",
+            "role": "Developer"
+          }
+        ],
+        "source": {
+          "url": "https://github.com/agonyz/contao-page-speed-insights-bundle.git",
+          "type": "git",
+          "reference": "ad569eca2c5196c34fbe1e26e57256821d505534"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/agonyz/contao-page-speed-insights-bundle/zipball/ad569eca2c5196c34fbe1e26e57256821d505534",
+          "type": "zip",
+          "shasum": "",
+          "reference": "ad569eca2c5196c34fbe1e26e57256821d505534"
+        },
+        "type": "contao-bundle",
+        "support": {
+          "issues": "https://github.com/agonyz/contao-page-speed-insights-bundle/issues",
+          "source": "https://github.com/agonyz/contao-page-speed-insights-bundle"
+        },
+        "time": "2022-10-20T13:58:56+00:00",
+        "autoload": {
+          "psr-4": { "Agonyz\\ContaoPageSpeedInsightsBundle\\": "src/" }
+        },
+        "extra": {
+          "contao-manager-plugin": "Agonyz\\ContaoPageSpeedInsightsBundle\\ContaoManager\\Plugin",
+          "bamarni-bin": { "bin-links": false, "target-directory": "tools" }
+        },
+        "require": {
+          "php": "^7.4 || ^8.0",
+          "contao/core-bundle": "^4.13",
+          "guzzlehttp/guzzle": "^7.4",
+          "babdev/pagerfanta-bundle": "^3.7",
+          "pagerfanta/doctrine-orm-adapter": "^3.6",
+          "pagerfanta/twig": "^3.6"
+        },
+        "require-dev": {
+          "contao/easy-coding-standard": "^5.3",
+          "contao/manager-plugin": "^2.0",
+          "bamarni/composer-bin-plugin": "^1.5",
+          "phpunit/phpunit": "^9.5",
+          "symfony/phpunit-bridge": "^6.1"
+        },
+        "conflict": { "contao/manager-plugin": "\u003C2.0 || \u003E=3.0" }
+      },
+      "1.2.1": {
+        "name": "agonyz/contao-page-speed-insights-bundle",
+        "description": "Contao extension to automatically get page speed insights for your root pages",
+        "keywords": [
+          "api",
+          "google",
+          "automatic",
+          "PageSpeed",
+          "Insights",
+          "contao",
+          "analyse"
+        ],
+        "homepage": "https://github.com/agonyz/contao-page-speed-insights-bundle",
+        "version": "1.2.1",
+        "version_normalized": "1.2.1.0",
+        "license": ["LGPL-3.0-or-later"],
+        "authors": [
+          {
+            "name": "agonyz",
+            "email": "dev@agonyz.de",
+            "homepage": "https://agonyz.de",
+            "role": "Developer"
+          }
+        ],
+        "source": {
+          "url": "https://github.com/agonyz/contao-page-speed-insights-bundle.git",
+          "type": "git",
+          "reference": "b43f7a354e3a881e1786e17da0567b99257feb72"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/agonyz/contao-page-speed-insights-bundle/zipball/b43f7a354e3a881e1786e17da0567b99257feb72",
+          "type": "zip",
+          "shasum": "",
+          "reference": "b43f7a354e3a881e1786e17da0567b99257feb72"
+        },
+        "type": "contao-bundle",
+        "support": {
+          "issues": "https://github.com/agonyz/contao-page-speed-insights-bundle/issues",
+          "source": "https://github.com/agonyz/contao-page-speed-insights-bundle"
+        },
+        "time": "2022-08-13T14:49:34+00:00",
+        "autoload": {
+          "psr-4": { "Agonyz\\ContaoPageSpeedInsightsBundle\\": "src/" }
+        },
+        "extra": {
+          "contao-manager-plugin": "Agonyz\\ContaoPageSpeedInsightsBundle\\ContaoManager\\Plugin"
+        },
+        "require": {
+          "php": "^7.4 || ^8.0",
+          "contao/core-bundle": "^4.13",
+          "guzzlehttp/guzzle": "^7.4"
+        },
+        "require-dev": { "contao/easy-coding-standard": "^5.3" }
+      },
+      "1.2.0": {
+        "name": "agonyz/contao-page-speed-insights-bundle",
+        "description": "Contao extension to automatically get page speed insights for your root pages",
+        "keywords": [],
+        "homepage": "https://github.com/agonyz/contao-page-speed-insights-bundle",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "license": ["LGPL-3.0-or-later"],
+        "authors": [
+          {
+            "name": "agonyz",
+            "email": "dev@agonyz.de",
+            "homepage": "https://agonyz.de",
+            "role": "Developer"
+          }
+        ],
+        "source": {
+          "url": "https://github.com/agonyz/contao-page-speed-insights-bundle.git",
+          "type": "git",
+          "reference": "e4a2341be8b74f3db6863b67d6deed140dd752de"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/agonyz/contao-page-speed-insights-bundle/zipball/e4a2341be8b74f3db6863b67d6deed140dd752de",
+          "type": "zip",
+          "shasum": "",
+          "reference": "e4a2341be8b74f3db6863b67d6deed140dd752de"
+        },
+        "type": "contao-bundle",
+        "support": {
+          "issues": "https://github.com/agonyz/contao-page-speed-insights-bundle/issues",
+          "source": "https://github.com/agonyz/contao-page-speed-insights-bundle"
+        },
+        "time": "2022-08-07T12:33:33+00:00",
+        "autoload": {
+          "psr-4": { "Agonyz\\ContaoPageSpeedInsightsBundle\\": "src/" }
+        },
+        "extra": {
+          "contao-manager-plugin": "Agonyz\\ContaoPageSpeedInsightsBundle\\ContaoManager\\Plugin"
+        },
+        "require": {
+          "php": "^7.4 || ^8.0",
+          "contao/core-bundle": "^4.13",
+          "guzzlehttp/guzzle": "^7.4"
+        },
+        "require-dev": { "contao/easy-coding-standard": "^5.3" }
+      },
+      "1.1.0": {
+        "name": "agonyz/contao-page-speed-insights-bundle",
+        "description": "Contao extension to automatically get page speed insights for your root pages",
+        "keywords": [],
+        "homepage": "https://github.com/agonyz/contao-page-speed-insights-bundle",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "license": ["LGPL-3.0-or-later"],
+        "authors": [
+          {
+            "name": "agonyz",
+            "email": "dev@agonyz.de",
+            "homepage": "https://agonyz.de",
+            "role": "Developer"
+          }
+        ],
+        "source": {
+          "url": "https://github.com/agonyz/contao-page-speed-insights-bundle.git",
+          "type": "git",
+          "reference": "41c8e5aa472dfe31c689d1d2cefd7193cad1f346"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/agonyz/contao-page-speed-insights-bundle/zipball/41c8e5aa472dfe31c689d1d2cefd7193cad1f346",
+          "type": "zip",
+          "shasum": "",
+          "reference": "41c8e5aa472dfe31c689d1d2cefd7193cad1f346"
+        },
+        "type": "contao-bundle",
+        "support": {
+          "issues": "https://github.com/agonyz/contao-page-speed-insights-bundle/issues",
+          "source": "https://github.com/agonyz/contao-page-speed-insights-bundle"
+        },
+        "time": "2022-08-05T20:39:57+00:00",
+        "autoload": {
+          "psr-4": { "Agonyz\\ContaoPageSpeedInsightsBundle\\": "src/" }
+        },
+        "extra": {
+          "contao-manager-plugin": "Agonyz\\ContaoPageSpeedInsightsBundle\\ContaoManager\\Plugin"
+        },
+        "require": {
+          "php": "^7.4 || ^8.0",
+          "contao/core-bundle": "^4.13",
+          "guzzlehttp/guzzle": "^7.4"
+        },
+        "require-dev": { "contao/easy-coding-standard": "^5.3" }
+      },
+      "1.0.1": {
+        "name": "agonyz/contao-page-speed-insights-bundle",
+        "description": "Contao extension to automatically get page speed insights for your root pages",
+        "keywords": [],
+        "homepage": "https://github.com/agonyz/contao-page-speed-insights-bundle",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "license": ["LGPL-3.0-or-later"],
+        "authors": [
+          {
+            "name": "agonyz",
+            "email": "dev@agonyz.de",
+            "homepage": "https://agonyz.de",
+            "role": "Developer"
+          }
+        ],
+        "source": {
+          "url": "https://github.com/agonyz/contao-page-speed-insights-bundle.git",
+          "type": "git",
+          "reference": "233091407c4509b119f4792debdd8e3c4e7c0bdd"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/agonyz/contao-page-speed-insights-bundle/zipball/233091407c4509b119f4792debdd8e3c4e7c0bdd",
+          "type": "zip",
+          "shasum": "",
+          "reference": "233091407c4509b119f4792debdd8e3c4e7c0bdd"
+        },
+        "type": "contao-bundle",
+        "support": {
+          "issues": "https://github.com/agonyz/contao-page-speed-insights-bundle/issues",
+          "source": "https://github.com/agonyz/contao-page-speed-insights-bundle"
+        },
+        "time": "2022-08-01T20:49:56+00:00",
+        "autoload": {
+          "psr-4": { "Agonyz\\ContaoPageSpeedInsightsBundle\\": "src/" }
+        },
+        "extra": {
+          "contao-manager-plugin": "Agonyz\\ContaoPageSpeedInsightsBundle\\ContaoManager\\Plugin"
+        },
+        "require": {
+          "php": "^7.4 || ^8.0",
+          "contao/core-bundle": "^4.13",
+          "guzzlehttp/guzzle": "^7.4"
+        },
+        "require-dev": { "contao/easy-coding-standard": "^5.3" }
+      },
+      "1.0.0": {
+        "name": "agonyz/contao-page-speed-insights-bundle",
+        "description": "Contao extension to automatically get page speed insights for your root pages",
+        "keywords": [],
+        "homepage": "https://github.com/agonyz/contao-page-speed-insights-bundle",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "license": ["LGPL-3.0-or-later"],
+        "authors": [
+          {
+            "name": "agonyz",
+            "email": "dev@agonyz.de",
+            "homepage": "https://agonyz.de",
+            "role": "Developer"
+          }
+        ],
+        "source": {
+          "url": "https://github.com/agonyz/contao-page-speed-insights-bundle.git",
+          "type": "git",
+          "reference": "97de8b62cdc128b6d301f68c2b06c2a66cf90d5f"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/agonyz/contao-page-speed-insights-bundle/zipball/97de8b62cdc128b6d301f68c2b06c2a66cf90d5f",
+          "type": "zip",
+          "shasum": "",
+          "reference": "97de8b62cdc128b6d301f68c2b06c2a66cf90d5f"
+        },
+        "type": "contao-bundle",
+        "support": {
+          "issues": "https://github.com/agonyz/contao-page-speed-insights-bundle/issues",
+          "source": "https://github.com/agonyz/contao-page-speed-insights-bundle"
+        },
+        "time": "2022-07-30T13:27:07+00:00",
+        "autoload": {
+          "psr-4": { "Agonyz\\ContaoPageSpeedInsightsBundle\\": "src/" }
+        },
+        "extra": {
+          "contao-manager-plugin": "Agonyz\\ContaoPageSpeedInsightsBundle\\ContaoManager\\Plugin"
+        },
+        "require": {
+          "php": "^7.4 || ^8.0",
+          "contao/core-bundle": "^4.13",
+          "guzzlehttp/guzzle": "^7.4"
+        },
+        "require-dev": { "contao/easy-coding-standard": "^5.3" }
+      }
+    },
+    "type": "contao-bundle",
+    "repository": "https://github.com/agonyz/contao-page-speed-insights-bundle",
+    "github_stars": 1,
+    "github_watchers": 1,
+    "github_forks": 0,
+    "github_open_issues": 0,
+    "language": "PHP",
+    "dependents": 0,
+    "suggesters": 0,
+    "downloads": { "total": 23, "monthly": 0, "daily": 0 },
+    "favers": 1
+  }
+}
