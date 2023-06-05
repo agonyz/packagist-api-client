@@ -1,6 +1,6 @@
 {
   "name": "@agonyz/packagist-api-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "API Client for the Packagist API",
   "keywords": [
     "packagist",
@@ -12,10 +12,9 @@
   "license": "MIT",
   "homepage": "https://github.com/agonyz/packagist-api-client",
   "repository": "git@github.com:agonyz/packagist-api-client.git",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/api/PackagistApi.js",
+  "types": "lib/api/PackagistApi.d.ts",
   "scripts": {
-    "start": "node lib/index.js",
     "build": "tsc",
     "format": "prettier --write \"**/*.ts\"",
     "test": "npx jest --config=jest.config.ts"

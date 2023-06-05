@@ -8,11 +8,12 @@ npm i @agonyz/packagist-api-client
 
 ## Usage
 ```ts
-import PackagistApi from "@agonyz/packagist-api-client/lib/api/PackagistApi";
-const packagistApi = new PackagistApi();
+import PackagistApi from "@agonyz/packagist-api-client";
+import {Package} from "@agonyz/packagist-api-client/lib/interfaces";
 
-packagistApi.getPackageInfo('agonyz/contao-page-speed-insights-bundle')
-    .then(packageInfo => console.log(packageInfo));
+const packagistApi: PackagistApi = new PackagistApi();
+packagistApi.getPackageInfo('agonyz/contao-countdown-bundle')
+    .then((packageInformation: Package) => console.log(packageInformation));
 ```
 
 ## Contribute
