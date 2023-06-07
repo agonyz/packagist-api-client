@@ -6,6 +6,14 @@ Api-client for the [Packagist Api](https://packagist.org/apidoc)
 npm i @agonyz/packagist-api-client
 ```
 
+## Best practices
+See [Packagist API best practices](https://packagist.org/apidoc#best-practices)
+
+```ts
+// set an userAgent with some sort of contact information
+const packagistApi: PackagistApi = new PackagistApi('my-example-implementation - contact: email@example.com');
+```
+
 ## Usage
 ```ts
 import PackagistApi from "@agonyz/packagist-api-client";
