@@ -15,6 +15,8 @@ const packagistApi: PackagistApi = new PackagistApi('my-example-implementation -
 ```
 
 ## Usage
+
+### Import
 ```ts
 import PackagistApi from "@agonyz/packagist-api-client";
 import {Package} from "@agonyz/packagist-api-client/lib/interfaces";
@@ -22,6 +24,15 @@ import {Package} from "@agonyz/packagist-api-client/lib/interfaces";
 const packagistApi: PackagistApi = new PackagistApi();
 packagistApi.getPackageInfo('agonyz/contao-countdown-bundle')
     .then((packageInformation: Package) => console.log(packageInformation));
+```
+
+### Require
+```ts
+var packagistApiClient = require("@agonyz/packagist-api-client").default
+
+const packagistApi = new packagistApiClient();
+packagistApi.getPackageInfo('agonyz/contao-countdown-bundle')
+    .then(packageInformation => console.log(packageInformation));
 ```
 
 ## Contribute
