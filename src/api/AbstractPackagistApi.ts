@@ -21,7 +21,7 @@ abstract class AbstractPackagistApi {
       });
       return this.processResponse<T>(response);
     } catch (error) {
-      throw new Error('Failed to make GET request.');
+      throw new Error(`Failed to make GET request: ${error}`);
     }
   }
 }
