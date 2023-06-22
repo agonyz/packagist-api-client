@@ -1,6 +1,6 @@
 {
   "name": "@agonyz/packagist-api-client",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "API Client for the Packagist API",
   "keywords": [
     "packagist",
