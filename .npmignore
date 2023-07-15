@@ -7,3 +7,4 @@ tests/
 .prettierrc
 jest.config.ts
 tsconfig.json
+docs/
