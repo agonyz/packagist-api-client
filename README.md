@@ -2,8 +2,8 @@
   <img alt="Packagist Logo" src="docs/packagist.svg" width="100" align="center">
   <h1>Packagist Api Client</h1>
 
+[![Badge](https://img.shields.io/npm/dt/%40agonyz%2Fpackagist-api-client?style=for-the-badge)](https://www.npmjs.com/package/@agonyz/packagist-api-client)
 [![Badge](https://img.shields.io/github/issues/agonyz/packagist-api-client?style=for-the-badge)](https://github.com/agonyz/packagist-api-client/issues)
-[![Badge](https://img.shields.io/github/issues-pr/agonyz/packagist-api-client?style=for-the-badge)](https://github.com/agonyz/packagist-api-client/pulls)
 [![Badge](https://img.shields.io/github/stars/agonyz/packagist-api-client?style=for-the-badge)](https://github.com/agonyz/packagist-api-client/stargazers)
 
 </div>
